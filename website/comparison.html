@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>WWeather Dashboard(Global Humidity)</title>
+  <title>Weather Dashboard(Comparision)</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -45,24 +45,46 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
-  <div class="container-fluid">
+  <div class="row">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 col-md-offset-1">
+          <h2>Comparision: Latitude vs X</h2>
+        </div>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-md-7 col-md-offset-1">
-        <h2>Global Humidity</h2>
+      <div class="container-fluid">
+        <div class="ccol-md-7 col-md-offset-1"> <br>
+          <div class="pull-left">
+            <h3>Latitude vs. Max Temperature</h3>
+            <a target="_blank" href="images/city_lat_vs_Max_temp.png"><img src="images/city_lat_vs_Max_temp.png" alt="Latitude vs. Max Temperature"></a>
+          </div>
+        </div>
       </div>
       <div class="col-md-7 col-md-offset-1"> <br>
-        <div class="center">
-          <img src="images/global_humidity.png" alt="Global Humidity">
+        <div class="pull-left">
+          <h3>Latitude vs. Humidity</h3>
+          <a target="_blank" href="images/city_lat_vs_humidity.png"><img src="images/city_lat_vs_humidity.png" alt="Latitude vs. Humidity"></a>
         </div>
-        <div class="col-md-10">
-          <p style="float: left;"> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p> 
+      </div>
+      <div class="container-fluid">
+        <div class="ccol-md-7 col-md-offset-1"> <br>
+          <div class="pull-left">
+            <h3>Latitude vs. Cloudiness</h3>
+            <a target="_blank" href="images/latitude_vs_cloudiness.png"><img src="images/city_lat_vs_Max_temp.png" alt="Latitude vs. Cloudiness"></a>
+          </div>
         </div>
-
+      </div>
+      <div class="container-fluid">
+        <div class="ccol-md-7 col-md-offset-1"> <br>
+          <div class="pull-left">
+            <h3>Latitude vs. Wind Speed</h3>
+            <a target="_blank" href="images/latitude_vs_wind_speed.png"><img src="images/city_lat_vs_Max_temp.png" alt="Latitude vs. Wind Speed"></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</body>
-
-
 </body>
 </html>

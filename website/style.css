@@ -16,3 +16,12 @@ border-color: red;
 li {
     display: inline;
 }
+h2 {
+	display: block;
+	color: #3ACAC;
+	margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}

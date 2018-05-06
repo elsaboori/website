@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Web Visualization-Weather Dashboard</title>
+  <title>Weather Dashboard(City Latitude .vs Max Temperature)</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -14,12 +14,13 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-       
-      </button>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="index.html">Latitude</a>
       </div>
-
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
@@ -39,15 +40,28 @@
           </li>
           <li><a href="comparison.html">Comparison</a></li>
           <li><a href="data.html">Data</a></li>
-          <li><a target="_blank" href="https://github.com/elsaboori/website">Repo</a></li>
+          <li><a target="_blank" href="https://github.com/elsaboori">Repo</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
   </nav>
-
-
-
+  <!--the pages content -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-7 col-md-offset-1">
+        <h2>City Latitude .vs Max Temperature</h2>
+      </div>
+      <div class="col-md-7 col-md-offset-1"> <br>
+        <div class="center">
+          <img src="images/city_lat_vs_Max_temp.png" alt="City Latitude vs. Max Temperature" >
+        </div>
+        <div class="col-md-10">
+          <p style="float: left;"> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p> 
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
